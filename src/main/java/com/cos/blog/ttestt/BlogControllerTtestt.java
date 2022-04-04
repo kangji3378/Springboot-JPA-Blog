@@ -1,6 +1,5 @@
-package com.cos.blog.test;
+package com.cos.blog.ttestt;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -9,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class BlogControllerTest {
+public class BlogControllerTtestt {
 	
 	//http://localhost:8080/test/hello
 	@GetMapping("/test/hello")
